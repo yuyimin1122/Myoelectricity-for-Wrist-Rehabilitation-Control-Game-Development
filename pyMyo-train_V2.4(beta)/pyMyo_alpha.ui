@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1360</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>pyMyo-train</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/DYX/.designer/backup/logo.png</normaloff>C:/Users/DYX/.designer/backup/logo.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="GroupEMG">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1321</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1301</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="graph_layout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="funcArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>260</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item row="0" column="1">
+      <widget class="QLabel" name="setBATTERY">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="Battery">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>BATTERY:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="btnGroup">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>540</y>
+     <width>771</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="connectBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="disConnectBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startBtn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pose1Btn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pose1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pose2Btn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pose2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pose3Btn">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pose3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pose4Btn">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pose4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculateBtn">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="freeBtn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Free</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="maxBtn">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maximum</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minBtn">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>90</y>
+      <width>100</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Minimum</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="msgGroup">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>540</y>
+     <width>261</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QTextBrowser" name="msgBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>241</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="English" country="UnitedStates"/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>620</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Set subject number</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Subject Number :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="subjectnum">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="locale">
+     <locale language="English" country="UnitedStates"/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>connectBtn</tabstop>
+  <tabstop>disConnectBtn</tabstop>
+  <tabstop>startBtn</tabstop>
+  <tabstop>msgBrowser</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

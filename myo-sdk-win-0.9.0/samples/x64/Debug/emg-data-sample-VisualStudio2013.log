@@ -1,0 +1,9 @@
+﻿F:\大三软件\Visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(hello-myo-VisualStudio2013.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  emg-data-sample.cpp
+C:\SRTP\myo-sdk-win-0.9.0\include\myo\cxx\detail\ThrowOnError.hpp(39,1): warning C4297: “myo::ThrowOnError::~ThrowOnError”: 假定函数不引发异常，但确实发生了
+C:\SRTP\myo-sdk-win-0.9.0\include\myo\cxx\detail\ThrowOnError.hpp(39,1): message : 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+C:\SRTP\myo-sdk-win-0.9.0\include\myo\cxx\detail\ThrowOnError.hpp(45,1): warning C4297: “myo::ThrowOnError::~ThrowOnError”: 假定函数不引发异常，但确实发生了
+C:\SRTP\myo-sdk-win-0.9.0\include\myo\cxx\detail\ThrowOnError.hpp(45,1): message : 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  emg-data-sample-VisualStudio2013.vcxproj -> C:\SRTP\myo-sdk-win-0.9.0\samples\x64\Debug\emg-data-sample-VisualStudio2013.exe
+  Copy required dlls to output directory
+  已复制         1 个文件。
